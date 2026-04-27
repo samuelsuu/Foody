@@ -78,18 +78,6 @@ export default function Home() {
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
       {/* Header */}
-      {/* <View style={styles.header}>
-        <View>
-          <Text style={styles.deliverTo}>Deliver to</Text>
-          <TouchableOpacity style={styles.locationSelector}>
-            <Text style={styles.locationText}>New York, USA</Text>
-            <Ionicons name="chevron-down" size={16} color="#FE724C" />
-          </TouchableOpacity>
-        </View>
-        <TouchableOpacity style={styles.profileAvatar}>
-          <Image source={foodImg} style={styles.avatarImage} />
-        </TouchableOpacity>
-      </View> */}
 
       <Header />
 

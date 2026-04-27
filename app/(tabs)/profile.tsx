@@ -5,7 +5,7 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 
 const setting = () => {
   return (
-    <SafeAreaView>
+    <SafeAreaView edges={['top']}>
       <Header />
       <Text>setting</Text>
     </SafeAreaView>
